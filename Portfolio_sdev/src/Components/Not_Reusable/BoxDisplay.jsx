@@ -23,7 +23,7 @@ const BoxDisplay = () => {
         <TopRightBox>
           <InnerY2>
             <Stat>5+</Stat>
-            <Label>Projects Executed</Label>
+            <Label>Projects Completed</Label>
           </InnerY2>
         </TopRightBox>
         <BottomRightBox>
