@@ -13,8 +13,8 @@ const BoxDisplay = () => {
         </TopLeftBox>
         <BottomLeftBox>
           <InnerY1>
-            <Stat>1+</Stat>
-            <Label>Years of Experience</Label>
+            <Stat>100%</Stat>
+            <Label>Completion Rate</Label>
           </InnerY1>
         </BottomLeftBox>
       </LeftBox>
@@ -22,14 +22,14 @@ const BoxDisplay = () => {
       <RightBox>
         <TopRightBox>
           <InnerY2>
-            <Stat>1+</Stat>
-            <Label>Years of Experience</Label>
+            <Stat>5+</Stat>
+            <Label>Projects Done</Label>
           </InnerY2>
         </TopRightBox>
         <BottomRightBox>
           <InnerZ>
             <Stat>1+</Stat>
-            <Label>Years of Experience</Label>
+            <Label>Clients Satisfied</Label>
           </InnerZ>
         </BottomRightBox>
       </RightBox>
