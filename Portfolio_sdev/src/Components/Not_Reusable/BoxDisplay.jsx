@@ -14,7 +14,7 @@ const BoxDisplay = () => {
         <BottomLeftBox>
           <InnerY1>
             <Stat>100%</Stat>
-            <Label>Completion Rate</Label>
+            <Label>Task Completion Rate</Label>
           </InnerY1>
         </BottomLeftBox>
       </LeftBox>
