@@ -1,4 +1,5 @@
 import React from 'react'
+import styled from 'styled-components';
 
 const ResumePage = () => {
   return (
@@ -7,7 +8,10 @@ const ResumePage = () => {
 
       <MainSection>
         {/* HeaderDesign */}
-        {/* ResumeDisplay*2 */}
+        <h2>EDUCATION</h2>
+        {/* ResumeDisplay */}
+        <h2>EXPERIENCE</h2>
+        {/* ResumeDisplay */}
         {/* SideIcons */}
       </MainSection>
     </ResumeWrapper>

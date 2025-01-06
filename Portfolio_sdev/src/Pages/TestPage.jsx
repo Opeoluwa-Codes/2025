@@ -1,7 +1,6 @@
 import React from 'react'
 import BoxDisplay from "../Components/Not_Reusable/BoxDisplay"
 import ContactTile from "../Components/Reusable/ContactTile"
-import DisplayPortfolio from "../Components/Reusable/DisplayPortfolio"
 import HeaderDesign from "../Components/Reusable/HeaderDesign"
 import ResumeDisplay from "../Components/Reusable/ResumeDisplay"
 import WhatIDo from "../Components/Reusable/WhatIDo"
@@ -17,12 +16,11 @@ import SidePanel from "../Static/SidePanel"
 const TestPage = () => {
   return (
     <div>
-      <BoxDisplay/>
+      {/* <BoxDisplay/> */}
       {/* <ContactTile/> */}
-      {/* <DisplayPortfolio/> */}
       {/* <HeaderDesign/> */}
       {/* <ResumeDisplay/> */}
-      {/* <WhatIDo/> */}
+      <WhatIDo/>
       {/* <AboutPage/> */}
       {/* <ContactPage/> */}
       {/* <HomePage/> */}

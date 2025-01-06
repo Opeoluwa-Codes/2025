@@ -7,20 +7,27 @@ import PortfolioPage from './Pages/PortfolioPage'
 import ResumePage from './Pages/ResumePage'
 import TestimonialPage from './Pages/TestimonialPage'
 import TestPage from './Pages/TestPage'
+import SideIcons from './Static/SideIcons'
+import SidePanel from './Static/SidePanel'
 
 const App = () => {
   return (
     <div>
       <BrowserRouter>
         <Routes>
+          {/* <Route path='/' element={<HomePage/>}/> */}
+        </Routes>
+
+        <SideIcons/>
+        <Routes>
           <Route path='/' element={<TestPage/>}/>
           {/* <Route path='/about' element={<AboutPage/>}/> */}
           {/* <Route path='/contact' element={<ContactPage/>}/> */}
-          {/* <Route path='/' element={<HomePage/>}/> */}
           {/* <Route path='/portfolio' element={<PortfolioPage/>}/> */}
           {/* <Route path='/resume' element={<ResumePage/>}/> */}
           {/* <Route path='/testimonial' element={<TestimonialPage/>}/> */}
         </Routes>
+        <SidePanel/>
       </BrowserRouter>
     </div>    
   );

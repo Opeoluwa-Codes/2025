@@ -1,9 +1,19 @@
 import React from 'react'
+import styled from 'styled-components';
 
-const WhatIDo = () => {
+const WhatIDo = (props) => {
   return (
-    <div>WhatIDo</div>
-  )
-}
+    <WhatIDoWrapper>
+      <IconWrapper>
+        {props.image}
+      </IconWrapper>
 
-export default WhatIDo
+      <InfoWrapper>
+        <h3>{props.title}</h3>
+        <p>{props.description}</p>
+      </InfoWrapper>
+    </WhatIDoWrapper>
+  );
+};
+
+export default WhatIDo;
