@@ -41,11 +41,11 @@ const SchoolorJob = styled.div`
 
   font-size: 14px;
   font-weight: 400;
-  color: #EDE2CE;
+  color: #E5B299;
 
   text-transform: capitalize;
 
-  background-color: #776E45;
+  background-color: #7D5A50;
 `
 const SchoolorJobTitle = styled.div`
   height: 40px;
@@ -55,7 +55,7 @@ const SchoolorJobTitle = styled.div`
 
   font-size: 18px;
   font-weight: 800;
-  color: #776E45;
+  color: #7D5A50;
 
   text-transform: capitalize;
 `
@@ -64,7 +64,7 @@ const Description = styled.div`
 
   font-size: 14px;
   font-weight: 300;
-  color: #776E45;
+  color: #7D5A50;
 
   text-align: justify;
 `

@@ -139,7 +139,7 @@ const Stat = styled.div`
   font-size: 40px;
   font-weight: 700;
 
-  color: #efc73b;
+  color: #7D5A50;
 
   margin-bottom: 5px;
 `
@@ -147,7 +147,7 @@ const Stat = styled.div`
 const Label = styled.div`
   font-size: 12px;
 
-  color: white;
+  color: #E5B299;
 
   margin-top: 5px;
   margin-bottom: 8px;

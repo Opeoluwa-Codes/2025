@@ -20,10 +20,9 @@ const TestPage = () => {
       {/* <ContactTile/> */}
       {/* <HeaderDesign/> */}
       {/* <ResumeDisplay/> */}
-      <WhatIDo/>
+      {/* <WhatIDo/> */}
       {/* <AboutPage/> */}
       {/* <ContactPage/> */}
-      {/* <HomePage/> */}
       {/* <PortfolioPage/> */}
       {/* <ResumePage/> */}
       {/* <TestimonialPage/> */}

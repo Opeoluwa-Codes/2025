@@ -7,27 +7,25 @@ import PortfolioPage from './Pages/PortfolioPage'
 import ResumePage from './Pages/ResumePage'
 import TestimonialPage from './Pages/TestimonialPage'
 import TestPage from './Pages/TestPage'
+import Layout from './Hooks/Layout'
 import SideIcons from './Static/SideIcons'
-import SidePanel from './Static/SidePanel'
 
 const App = () => {
   return (
     <div>
-      <BrowserRouter>
+      <BrowserRouter>          
         <Routes>
-          {/* <Route path='/' element={<HomePage/>}/> */}
+          <Route path='/' element={<HomePage/>}/>
+          <Route element={<Layout/>}>
+            <Route path='/testpage' element={<TestPage/>}/>
+            {/* <Route path='/about' element={<AboutPage/>}/>
+            <Route path='/contact' element={<ContactPage/>}/>
+            <Route path='/portfolio' element={<PortfolioPage/>}/>
+            <Route path='/resume' element={<ResumePage/>}/>
+            <Route path='/testimonial' element={<TestimonialPage/>}/> */}
+          </Route>
         </Routes>
-
         <SideIcons/>
-        <Routes>
-          <Route path='/' element={<TestPage/>}/>
-          {/* <Route path='/about' element={<AboutPage/>}/> */}
-          {/* <Route path='/contact' element={<ContactPage/>}/> */}
-          {/* <Route path='/portfolio' element={<PortfolioPage/>}/> */}
-          {/* <Route path='/resume' element={<ResumePage/>}/> */}
-          {/* <Route path='/testimonial' element={<TestimonialPage/>}/> */}
-        </Routes>
-        <SidePanel/>
       </BrowserRouter>
     </div>    
   );
