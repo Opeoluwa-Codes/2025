@@ -4,9 +4,7 @@ import styled from 'styled-components';
 const WhatIDo = (props) => {
   return (
     <WhatIDoWrapper>
-      <IconWrapper>
-        {props.image}
-      </IconWrapper>
+      <img src={props.image} alt="" />
 
       <InfoWrapper>
         <Title>{props.title}</Title>
@@ -19,39 +17,37 @@ const WhatIDo = (props) => {
 export default WhatIDo;
 
 const WhatIDoWrapper = styled.div`
-  width: 380px;
-  height: 150px;
+  width: 100%;
+  height: fit-content;
 
   display: flex;
   justify-content: space-between;
   align-items: center;
-`
-const IconWrapper = styled.div`
-  width: 120px;
-  height: 100%;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  box-sizing: border-box;
+  img{
+    width: 50px;
+  }
 `
+
 const InfoWrapper = styled.div`
-  width: 245px;
+  width: 82%;
   height: 100%;
 `
 const Title = styled.div`
-  font-size: 18px;
-  font-weight: 800;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: Fira Sans;
   color: #7D5A50;
 
-  margin-bottom: 10px;
+  margin-bottom: 8px;
   
   text-transform: uppercase;
 `
 const Description = styled.div`
   font-size: 14px;
-  font-weight: 100;
+  font-weight: 300;
+  font-family: Lato;
   color: #7D5A50;
+
   text-align: justify;
 `

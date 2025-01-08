@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import {styled} from 'styled-components';
-import Picture from '../../public/Assets/JPG/Picture.jpg'
+import Picture from '../Assets/JPG/Picture.jpg'
 
 
 const HomePage = () => {
@@ -19,7 +19,7 @@ const HomePage = () => {
         clearInterval(interval);
       }
       
-    }, 1500); 
+    }, 500); 
 
     return () => clearInterval(interval);
     
@@ -65,7 +65,7 @@ const LeftSide = styled.div`
   padding: 5%;
 
   h2{
-    font-size: 50px;
+    font-size: 40px;
     margin-bottom: 10px;
     color: #7D5A50;
   }
@@ -94,6 +94,7 @@ const LeftSide = styled.div`
 
     font-size: 14px;
     font-weight: 600;
+    font-family: Lato;
 
     box-sizing: border-box;
     padding-left: 10px;
@@ -118,10 +119,11 @@ const RightSide = styled.div`
 `
 const RoleDisplay = styled.div`
   width: fit-content;
-  height: 30px;
+  height: 25px;
 
   font-size: 14px;
   font-weight: 600;
+  font-family: Fira Sans;
 
   color: #F5E8C7;
   background-color: #7D5A50;
@@ -146,7 +148,7 @@ const Name = styled.div`
 const POne = styled.div`
   font-size: 70px;
   font-weight: 900;
-  font-family: New Rocker;
+  font-family: Fira Sans;
 
   color: #7D5A50;
 `
@@ -154,7 +156,7 @@ const POne = styled.div`
 const PTwo = styled.div`
   font-size: 70px;
   font-weight: 900;
-  font-family: New Rocker;
+  font-family: Fira Sans;
 
   color: #7D5A50;
 

@@ -40,18 +40,17 @@ const BoxDisplay = () => {
 export default BoxDisplay;
 
 const BoxWrapper = styled.div`
-  width: 355px;
-  height: 255px;
+  width: 53%;
+  height: 100%;
   
   display: flex;
   justify-content: space-between;
   align-items: center;
 
+  box-sizing: border-box;
   padding: 20px;
 
-  border: 1px black solid;
-
-  background-color: black;
+  background-color: #7D5A50;
 `
 const LeftBox = styled.div`
   width: 50%;
@@ -97,8 +96,8 @@ const InnerX = styled.div`
   align-items: center;
   justify-content: center;
   
-  border-right: 1px dotted white;
-  border-bottom: 1px dotted white;
+  border-right: 1px dotted #F5E8C7;
+  border-bottom: 1px dotted #F5E8C7;
 `
 
 const InnerY1 = styled.div`
@@ -120,7 +119,7 @@ const InnerY2 = styled.div`
   align-items: center;
   justify-content: center;
 
-  border-bottom: 1px dotted white;
+  border-bottom: 1px dotted #F5E8C7;
 `
 
 const InnerZ = styled.div`
@@ -132,22 +131,25 @@ const InnerZ = styled.div`
   align-items: center;
   justify-content: center;
   
-  border-left: 1px dotted white;
+  border-left: 1px dotted #F5E8C7;
 `
 
 const Stat = styled.div`
   font-size: 40px;
   font-weight: 700;
+  font-family: Lato;
 
-  color: #7D5A50;
+  color: #F5E8C7;
 
   margin-bottom: 5px;
 `
 
 const Label = styled.div`
   font-size: 12px;
+  font-weight: 400;
+  font-family: Lato;
 
-  color: #E5B299;
+  color: #F5E8C7;
 
   margin-top: 5px;
   margin-bottom: 8px;

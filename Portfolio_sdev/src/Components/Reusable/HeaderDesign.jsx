@@ -5,7 +5,7 @@ const HeaderDesign = (props) => {
   return (
 
     <HeaderDesignWrapper>
-      {props.title}
+      <p>{props.title}</p>
     </HeaderDesignWrapper>
 
   );
@@ -14,14 +14,23 @@ const HeaderDesign = (props) => {
 export default HeaderDesign;
 
 const HeaderDesignWrapper = styled.div`
-  width: 70%;
-  height: 100px;
+  width: 970px;
+  height: fit-content;
 
   display: flex;
   justify-content: center;
   align-items: center;
 
-  margin: 50px 15% 50px 15%;
+  margin-bottom: 30px;
+  box-sizing: border-box;
 
-  border: 1px dashed black;
+  border: 1px dashed #7D5A50;
+
+  p{
+    font-size: 80px;
+    font-weight: 900;
+    color: #7D5A50;
+
+    margin: 0px;
+  }
 `

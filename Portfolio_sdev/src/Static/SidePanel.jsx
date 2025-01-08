@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
-import Picture from "../../public/Assets/JPG/Picture.jpg"
+import Picture from '../Assets/JPG/Picture.jpg'
 import { RxDotFilled } from "react-icons/rx";
 import { PiDotsThreeVerticalBold } from "react-icons/pi";
 

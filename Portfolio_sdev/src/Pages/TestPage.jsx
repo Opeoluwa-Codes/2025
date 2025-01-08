@@ -21,7 +21,7 @@ const TestPage = () => {
       {/* <HeaderDesign/> */}
       {/* <ResumeDisplay/> */}
       {/* <WhatIDo/> */}
-      {/* <AboutPage/> */}
+      <AboutPage/>
       {/* <ContactPage/> */}
       {/* <PortfolioPage/> */}
       {/* <ResumePage/> */}
