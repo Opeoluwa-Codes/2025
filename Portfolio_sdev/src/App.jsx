@@ -15,9 +15,9 @@ const App = () => {
     <div>
       <BrowserRouter>          
         <Routes>
-          {/* <Route path='/' element={<HomePage/>}/> */}
+          <Route path='/' element={<HomePage/>}/>
           <Route element={<Layout/>}>
-            <Route path='/' element={<TestPage/>}/>
+            {/* <Route path='/' element={<TestPage/>}/> */}
             {/* <Route path='/about' element={<AboutPage/>}/>
             <Route path='/contact' element={<ContactPage/>}/>
             <Route path='/portfolio' element={<PortfolioPage/>}/>
