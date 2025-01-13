@@ -34,9 +34,9 @@ const InfoWrapper = styled.div`
   height: 100%;
 `
 const Title = styled.div`
-  font-size: 14px;
-  font-weight: 500;
-  font-family: Fira Sans;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: Squada One;
   color: #7D5A50;
 
   margin-bottom: 8px;
@@ -44,10 +44,12 @@ const Title = styled.div`
   text-transform: uppercase;
 `
 const Description = styled.div`
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 300;
-  font-family: Lato;
+  font-family: Libre Baskerville;
   color: #7D5A50;
+
+  line-height: 20px;
 
   text-align: justify;
 `

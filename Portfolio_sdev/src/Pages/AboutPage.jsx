@@ -22,7 +22,7 @@ const AboutPage = () => {
           <h3>What I Do!</h3>
           <WhatIDo image={Interactive} title="Interactive UI" description="Crafting dynamic and user-friendly interfaces using ReactJS, HTML, and CSS, ensuring seamless interactivity and engaging user experiences."/>
           <WhatIDo image={Responsive} title="Responsive UI" description="Designing adaptable and visually appealing layouts and guaranteeing optimal performance across devices and screen sizes."/>
-          <WhatIDo image={Functional} title="Functional Websites" description="Building robust web solutions by connecting frontends to backends and managing authentication efficiently."/>
+          <WhatIDo image={Functional} title="Functional Websites" description="Building robust web solutions and managing authentication efficiently."/>
         </What>
       </BoxAndWhat>
     </AboutWrapper>
@@ -36,7 +36,7 @@ const AboutWrapper = styled.div`
   height: 100vh;
 
   position: fixed;
-  left: 165px;
+  left: 164px;
 
   display: flex;
   flex-direction: column;

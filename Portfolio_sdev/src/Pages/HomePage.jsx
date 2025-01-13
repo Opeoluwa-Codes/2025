@@ -66,7 +66,7 @@ const LeftSide = styled.div`
 
   h2{
     font-size: 40px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     color: #7D5A50;
   }
 
@@ -80,6 +80,8 @@ const LeftSide = styled.div`
     text-align: justify;
 
     margin-bottom: 30px;
+
+    width: 90%;
   }
 
   button{
@@ -94,7 +96,7 @@ const LeftSide = styled.div`
 
     font-size: 14px;
     font-weight: 600;
-    font-family: Lato;
+    font-family: Libre Baskerville;
 
     box-sizing: border-box;
     padding-left: 10px;
@@ -123,7 +125,9 @@ const RoleDisplay = styled.div`
 
   font-size: 14px;
   font-weight: 600;
-  font-family: Fira Sans;
+  font-family: Libre BaskerVille;
+
+  letter-spacing: 2px;
 
   color: #F5E8C7;
   background-color: #7D5A50;
@@ -143,20 +147,22 @@ const Name = styled.div`
   align-items: center;
   gap: 20px;
 
-  margin-bottom: 5px;
+  width: 100%;
+
+  margin-bottom: 10px;
 `
 const POne = styled.div`
-  font-size: 70px;
+  font-size: 60px;
   font-weight: 900;
-  font-family: Fira Sans;
+  font-family: Libre Baskerville;
 
   color: #7D5A50;
 `
 
 const PTwo = styled.div`
-  font-size: 70px;
+  font-size: 60px;
   font-weight: 900;
-  font-family: Fira Sans;
+  font-family: Libre Baskerville;
 
   color: #7D5A50;
 

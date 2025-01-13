@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 const ContactTile = (props) => {
@@ -9,7 +10,7 @@ const ContactTile = (props) => {
         {props.icon}
       </ContactIcon>
       
-      <ContactType>
+      <ContactType to={props.link}>
         {props.type}
       </ContactType>
     </ContactWrapper>
@@ -21,27 +22,31 @@ export default ContactTile;
 
 const ContactWrapper = styled.div`
   width: 350px;
-  height: 200px;
+  height: 150px;
 
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-  border: 1px solid black;
 `
 const ContactIcon = styled.div`
-  width: 150px;
+  width: 30%;
   height: 100px;
 
   display: flex;
   justify-content: center;
   align-items: center;
 `
-const ContactType = styled.div`
-  width: 185px;
+const ContactType = styled(Link)`
+  width: 60%;
   height: 100px;
 
+  text-decoration: none;
+  color: #7D5A50;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: Libre Baskerville;
+
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
 `

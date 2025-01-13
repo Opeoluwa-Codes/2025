@@ -135,9 +135,9 @@ const InnerZ = styled.div`
 `
 
 const Stat = styled.div`
-  font-size: 40px;
-  font-weight: 700;
-  font-family: Lato;
+  font-size: 50px;
+  font-weight: 500;
+  font-family: Squada One;
 
   color: #F5E8C7;
 
@@ -147,7 +147,7 @@ const Stat = styled.div`
 const Label = styled.div`
   font-size: 12px;
   font-weight: 400;
-  font-family: Lato;
+  font-family: Libre Baskerville;
 
   color: #F5E8C7;
 

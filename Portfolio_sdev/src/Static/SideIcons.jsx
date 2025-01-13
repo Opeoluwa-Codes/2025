@@ -4,7 +4,6 @@ import { IoHome } from "react-icons/io5";
 import { FaRegUser } from "react-icons/fa6";
 import { BsFillBriefcaseFill } from "react-icons/bs";
 import { TbDualScreen } from "react-icons/tb";
-import { MdOutlineRateReview } from "react-icons/md";
 import { MdConnectWithoutContact } from "react-icons/md";
 import { PiDotsThreeVerticalBold } from "react-icons/pi";
 
@@ -19,8 +18,6 @@ const SideIcons = () => {
       <Resume/>
       <ThreeVerticalDots/>
       <Portfolio/>
-      <ThreeVerticalDots/>
-      <Testimonial/>
       <ThreeVerticalDots/>
       <Contact/>
     </SidePanelWrapper>
@@ -82,13 +79,7 @@ const Portfolio = styled(TbDualScreen)`
     color: #E5B299;
   }
 `
-const Testimonial = styled(MdOutlineRateReview)`
-  font-size: 18px;
-  color: #F5E8C7;
-  :hover{
-    color: #E5B299;
-  }
-`
+
 const Contact = styled(MdConnectWithoutContact)`
   font-size: 18px;
   color: #F5E8C7;

@@ -5,7 +5,7 @@ const HeaderDesign = (props) => {
   return (
 
     <HeaderDesignWrapper>
-      <p>{props.title}</p>
+      <h1>{props.title}</h1>
     </HeaderDesignWrapper>
 
   );
@@ -26,7 +26,7 @@ const HeaderDesignWrapper = styled.div`
 
   border: 1px dashed #7D5A50;
 
-  p{
+  h1{
     font-size: 80px;
     font-weight: 900;
     color: #7D5A50;

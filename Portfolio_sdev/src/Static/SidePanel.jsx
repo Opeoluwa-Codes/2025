@@ -42,12 +42,6 @@ const SidePanels= () => {
           <ThreeVerticalDots/>
         </Dots>
 
-        <p>TESTIMONIALS</p>
-
-        <Dots>
-          <ThreeVerticalDots/>
-        </Dots>
-
         <p>CONTACT</p>
 
         <Dots>
@@ -78,7 +72,7 @@ const PictureDiv = styled.div`
   width: 100%;
   height: 28%;
 
-  margin-bottom: 50px;
+  margin-bottom: 70px;
 
   img{
     width: inherit;
@@ -91,11 +85,11 @@ const NavList = styled.div`
   align-items: center;
 
   p{
-    font-size: 18px;
+    font-size: 14px;
     color: #F5E8C7;
 
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 
   p:hover{
